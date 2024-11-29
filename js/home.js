@@ -9,7 +9,7 @@ if (currentUser) {
 
 function logoutUser() {
     localStorage.removeItem("currentUser");
-    location.replace("login.html");
+    location.replace("index.html");
 
 }
 logoutBtn.addEventListener("click", logoutUser);
